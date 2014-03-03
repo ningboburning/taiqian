@@ -31,7 +31,7 @@
 	<div id="nav">
 	    <div id="nav_content">
 		  <ul>
-		    <li><a href="index.html" title="">首页</a></li>
+		    <li><a href="index.php" title="">首页</a></li>
 		    <li><a href="#" title="">入驻客户</a></li>
 			<li><a href="#" title="">论坛</a></li>
 			<li><a href="#" title="">业务合作</a></li>
