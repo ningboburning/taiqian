@@ -12,10 +12,15 @@
 	    <div class="page_title">
 		  <div class="title_style" style="float:left;">
 		    <div style="width:360px;border-right:1px solid #0099FF;float:left;">
-		      <span style="font-size:28px;">家在台前，爱台前@台前网</span><br />
-			  <span style="font-size:12px;color:#0099FF;">TAIQIANWANG</span>
+		      <div style="float:left;">
+			    <span style="font-size:28px;">家在台前，爱台前</span>
+			  </div>
+			  <div style="float:right;">
+				<span style="font-size:16px;color:#0099FF;">@台前网</span><br />
+			    <span style="font-size:10px;color:#0099FF;">TAIQIANWANG</span>
+			  </div>
 			</div>
-			<div style="margin:20px 0 0 40px;float:left;">
+			<div style="margin:8px 0 0 0px;float:left;">
 		      <span style="font-size:22px;color:#0099FF;">一站式生活平台</span>
 			</div>
 			<div style="margin:12px 0 0 48px;float:left;font-size:14px;">
@@ -32,16 +37,19 @@
 	    <div id="nav_content">
 		  <ul>
 		    <li><a href="index.php" title="">首页</a></li>
-		    <li><a href="#" title="">入驻客户</a></li>
+		    <li><a href="items.php" title="">入驻客户</a></li>
 			<li><a href="#" title="">论坛</a></li>
 			<li><a href="#" title="">业务合作</a></li>
 			<li><a href="#" title="">工作机会</a></li>
-			<li><a href="dreamstar.html" title="">联系我们</a></li>
+			<li><a href="contect.php" title="">联系我们</a></li>
 		  </ul>
 		</div>
 	  </div>
 	<div id="content">
 	  <div id="main">
+	    <div id="head_news">
+		  
+		</div>
 	    <div id="first" style="width:100%;">
 		  <div id="photo" style="float:left;width:650px;height:350px;">
 		    <div style="padding:5px;">
@@ -86,7 +94,7 @@
 			    <tr style="width:100%;height:28px;background:-moz-linear-gradient(#0099FF, #286DA3) repeat scroll 0 0 transparent;">
 				  <th style="width:1px;"></th>
 				  <td style="width:300px;">
-				    <span style="font-size:14px;margin-left:10px;font-weight:bold;">校内动态</span>
+				    <span style="font-size:14px;margin-left:10px;font-weight:bold;">新闻动态</span>
 				  </td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
@@ -95,19 +103,19 @@
 				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/siyuan">思源实验学校网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/siyuan" target="_blank">思源实验学校网站上线</a>&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/lizhi">励志中学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/lizhi" target="_blank">励志中学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/xiaoboshi">清华小博士幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/cyh">曹杨韩小学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/cyh" target="_blank">曹杨韩小学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/yiyuan">艺园中心幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/yiyuan" target="_blank">艺园中心幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 			  </table>
 			</div>

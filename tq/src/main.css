@@ -222,3 +222,7 @@ p {
 #footer a {
 	color: #CCCCCC;
 }
+
+#head_news {
+	height: 32px;
+}

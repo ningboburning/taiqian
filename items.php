@@ -3,8 +3,6 @@
   <head>
     <link rel="stylesheet" type="text/css" href="tq/src/main.css" />
 	<title>家在台前，爱台前@台前网</title>
-	<LINK href="tq/src/css.css" type=text/css rel=stylesheet>
-	<SCRIPT src="tq/src/xixi.js" type=text/javascript></SCRIPT>
   </head>
   <body>
     <div id="header">
@@ -32,43 +30,59 @@
 	    <div id="nav_content">
 		  <ul>
 		    <li><a href="index.php" title="">首页</a></li>
-		    <li><a href="#" title="">入驻客户</a></li>
+		    <li class="seleted"><a href="items.php" title="">入驻客户</a></li>
 			<li><a href="#" title="">论坛</a></li>
 			<li><a href="#" title="">业务合作</a></li>
 			<li><a href="#" title="">工作机会</a></li>
-			<li><a href="dreamstar.html" title="">联系我们</a></li>
+			<li><a href="contect.php" title="">联系我们</a></li>
 		  </ul>
 		</div>
 	  </div>
 	<div id="content">
 	  <div id="main">
-	    <div id="navgation">
-		  <a href="news.html" title="新闻中心"><span>新闻中心</span></a>
-		  <span>><span>
-		  <span>最新消息</span>
-		</div>
-	    <div id="news">
-	      <div id="news_title">
-		    梦想之星网站建设工作室
+		<div id="second" style="width:100%;padding:10px;font:12px/1.5 tahoma,arial,宋体;">
+		    <?php 
+				$values = array(
+					array("name"=>"梦想之星网站工作室","url"=>"taiqian/contect.php"),
+					array("name"=>"台前思源实验学校","url"=>"siyuan"),
+					array("name"=>"台前励志中学","url"=>"lizhi"),
+					array("name"=>"台前清华小博士幼儿园","url"=>"xiaoboshi"),
+					array("name"=>"台前曹杨韩小学","url"=>"cyh"),
+					array("name"=>"台前艺园幼儿园","url"=>"yiyuan"),
+					array("name"=>"台前新区医院","url"=>"#")
+				);
+				$numbers = count($values);
+				for($i=0;$i<$numbers;$i++){
+			?>
+			<div id="service">
+			<a href="<?php echo 'http://taiqianwang.eicp.net/'.$values[$i%$numbers]["url"]?>" target="_blank">
+		    <div id="service_2">
+		      <div id="name">
+			    <img style="width:100%;" src="tq/images/<?php echo $i%$numbers+1?>.jpg">
+			    <span><?php echo $values[$i]["name"]?></span>
+			  </div>
+			  <div id="content_2">
+			    <span>简单介绍校园文化。</span><br />
+				<span>电话：13472604861</span><br />
+				<span>位置：台前新区玮六路北经七路东</span>
+			  </div>
+		    </div>
 		  </div>
-		  <div id="news_content">
-		    <div style="margin-left:40px;">
-			<p>
-			<br />
-			<span style="font-weight:bold;color:#00A8FF;">联系方式</span><br />
-			<span style="font-weight:bold;">吕昭波（网站建设）</span><br />
-			<span>电话：13472604861（上海）</span><br />
-			<span>QQ：794683095</span><br />
-			<span>邮箱：lvzhaobopku@163.com</span><br />
-			<span style="font-weight:bold;">吕昭武（业务洽谈、技术实施）</span><br />
-			<span>电话：13223977255（台前）</span>
-			</p>
-			</div>
+		    <?php 
+				}
+		    ?>
+		  <br />
+		  <div class="clearfloat" style=""></div>
 		  </div>
 		</div>
 	  </div>
+	  <div class="clearfloat"></div>
 	</div>
 	<div id="footer">
+	  <div style="margin-top:20px;text-align:center;font-size:12px;line-height:24px;">
+	    <a href="dreamstar.html" style="">技术支持@梦想之星工作室</a><br />
+		<span style="">建议使用IE8及以上、火狐、Chrome等浏览器浏览</span>
+	  </div>
 	</div>
   </body>
 </html>
