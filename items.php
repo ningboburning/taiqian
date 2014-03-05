@@ -41,6 +41,9 @@
 	<div id="content">
 	  <div id="main">
 		<div id="second" style="width:100%;padding:10px;font:12px/1.5 tahoma,arial,宋体;">
+		  <div id="category_title">
+		    <span>中小学、幼儿园</span>
+		  </div>
 		    <?php 
 				$values = array(
 					array("name"=>"梦想之星网站工作室","url"=>"taiqian/contect.php"),
@@ -55,25 +58,61 @@
 				for($i=0;$i<$numbers;$i++){
 			?>
 			<div id="service">
-			<a href="<?php echo 'http://taiqianwang.eicp.net/'.$values[$i%$numbers]["url"]?>" target="_blank">
-		    <div id="service_2">
-		      <div id="name">
-			    <img style="width:100%;" src="tq/images/<?php echo $i%$numbers+1?>.jpg">
-			    <span><?php echo $values[$i]["name"]?></span>
-			  </div>
-			  <div id="content_2">
-			    <span>简单介绍校园文化。</span><br />
-				<span>电话：13472604861</span><br />
-				<span>位置：台前新区玮六路北经七路东</span>
-			  </div>
-		    </div>
+			  <a href="<?php echo 'http://taiqianwang.eicp.net/'.$values[$i%$numbers]["url"]?>" target="_blank">
+				<div id="service_2">
+				  <div id="name">
+					<img style="width:100%;" src="tq/images/<?php echo $i%$numbers+1?>.jpg">
+					<span><?php echo $values[$i]["name"]?></span>
+				  </div>
+				  <div id="content_2">
+					<span>简单介绍校园文化。</span><br />
+					<span>电话：13472604861</span><br />
+					<span>位置：台前新区玮六路北经七路东</span>
+				  </div>
+				</div>
+			  </a>
 		  </div>
 		    <?php 
 				}
 		    ?>
 		  <br />
 		  <div class="clearfloat" style=""></div>
+		</div>
+		<div class="clearfloat" style=""></div>
+		<!-- item end -->
+		<div id="thirds" style="width:100%;padding:10px;font:12px/1.5 tahoma,arial,宋体;">
+		  <div id="category_title">
+		    <span>事业单位、医院</span>
 		  </div>
+		    <?php 
+				$values = array(
+					array("name"=>"台前新区医院","url"=>"#")
+				);
+				$numbers = count($values);
+				for($i=0;$i<$numbers;$i++){
+			?>
+			<div id="service">
+			  <a href="<?php echo 'http://taiqianwang.eicp.net/'.$values[$i%$numbers]["url"]?>" target="_blank">
+				<div id="service_2">
+				  <div id="name">
+					<img style="width:100%;" src="tq/images/<?php echo $i%$numbers+1?>.jpg">
+					<span><?php echo $values[$i]["name"]?></span>
+				  </div>
+				  <div id="content_2">
+					<span>简单介绍校园文化。</span><br />
+					<span>电话：13472604861</span><br />
+					<span>位置：台前新区玮六路北经七路东</span>
+				  </div>
+				</div>
+			  </a>
+		  </div>
+		    <?php 
+				}
+		    ?>
+		  <br />
+		  <div class="clearfloat" style=""></div>
+		</div>
+		<!-- item end -->
 		</div>
 	  </div>
 	  <div class="clearfloat"></div>

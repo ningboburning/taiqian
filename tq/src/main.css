@@ -226,3 +226,13 @@ p {
 #head_news {
 	height: 32px;
 }
+
+#category_title {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 0 10px;
+	background-color: #FFAA00;
+	line-height: 28px;
+	width: 140px;
+	text-align: center;
+}
