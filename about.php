@@ -40,8 +40,8 @@
 		    <li><a href="items.php" title="">入驻客户</a></li>
 			<li><a href="#" title="">论坛</a></li>
 			<li><a href="#" title="">业务合作</a></li>
-			<li><a href="about.php" title="">关于我们</a></li>
-			<li class="seleted"><a href="contect.php" title="">联系我们</a></li>
+			<li class="seleted"><a href="about.php" title="">关于我们</a></li>
+			<li><a href="contect.php" title="">联系我们</a></li>
 		  </ul>
 		</div>
 	  </div>
@@ -51,7 +51,7 @@
 		  <div id="news_content">
 		    <br />
 		    <div id="category_title">
-		      <span>联系我们</span>
+		      <span>关于我们</span>
 		    </div>
 		    <div style="margin-left:40px;">
 			<span style="font-weight:bold;color:#00A8FF;">吕昭波（网站建设）</span><br />

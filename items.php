@@ -3,6 +3,8 @@
   <head>
     <link rel="stylesheet" type="text/css" href="tq/src/main.css" />
 	<title>家在台前，爱台前@台前网</title>
+	<LINK href="tq/src/css.css" type=text/css rel=stylesheet>
+	<SCRIPT src="tq/src/xixi.js" type=text/javascript></SCRIPT>
   </head>
   <body>
     <div id="header">
@@ -10,10 +12,15 @@
 	    <div class="page_title">
 		  <div class="title_style" style="float:left;">
 		    <div style="width:360px;border-right:1px solid #0099FF;float:left;">
-		      <span style="font-size:28px;">家在台前，爱台前@台前网</span><br />
-			  <span style="font-size:12px;color:#0099FF;">TAIQIANWANG</span>
+		      <div style="float:left;">
+			    <span style="font-size:28px;">家在台前，爱台前</span>
+			  </div>
+			  <div style="float:right;">
+				<span style="font-size:16px;color:#0099FF;">@台前网</span><br />
+			    <span style="font-size:10px;color:#0099FF;">TAIQIANWANG</span>
+			  </div>
 			</div>
-			<div style="margin:20px 0 0 40px;float:left;">
+			<div style="margin:8px 0 0 0px;float:left;">
 		      <span style="font-size:22px;color:#0099FF;">一站式生活平台</span>
 			</div>
 			<div style="margin:12px 0 0 48px;float:left;font-size:14px;">
@@ -33,7 +40,7 @@
 		    <li class="seleted"><a href="items.php" title="">入驻客户</a></li>
 			<li><a href="#" title="">论坛</a></li>
 			<li><a href="#" title="">业务合作</a></li>
-			<li><a href="#" title="">工作机会</a></li>
+			<li><a href="about.php" title="">关于我们</a></li>
 			<li><a href="contect.php" title="">联系我们</a></li>
 		  </ul>
 		</div>
