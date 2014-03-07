@@ -54,13 +54,55 @@
 		      <span>关于我们</span>
 		    </div>
 		    <div style="margin-left:40px;">
-			<span style="font-weight:bold;color:#00A8FF;">吕昭波（网站建设）</span><br />
-			<span>电话：13472604861（上海）</span><br />
-			<span>QQ：794683095</span><br />
-			<span>邮箱：lvzhaobopku@163.com</span><br />
-			<span style="font-weight:bold;color:#00A8FF;">吕昭武（业务洽谈、技术实施）</span><br />
-			<span>电话：13223977255（台前）</span>
+			<span style="font-weight:bold;color:#00A8FF;"></span><br />
+			<span>2010年毕业于郑州大学计算机科学与技术系，一直工作在上海，现已组建梦想之星网站建设团队，针对学校、事业单位、企业、商铺、工作室、个人及家庭建设网站。</span><br />
 			</div>
+		  </div>
+		</div>
+		<div id="second" style="width:100%;padding:10px;font:12px/1.5 tahoma,arial,宋体;">
+		  <div id="service">
+		    <div id="service_2">
+		      <div id="name">
+			    <img style="width:100%;" src="tq/images/1.jpg">
+			    <span>学校、事业单位官网</span>
+			  </div>
+			  <div id="content_2">
+			    <span>学校官网方便师生、家长更清楚的了解学校、了解学生的学习和生活；事业单位官网方便大家办理各项事宜，提高办事效率和透明度。</span>
+			  </div>
+		    </div>
+		  </div>
+		  <div id="service">
+		    <div id="service_2">
+			  <img style="width:100%;" src="tq/images/2.jpg">
+		      <div id="name">
+			    <span>企业官网</span>
+			  </div>
+			  <div id="content_2">
+			    <span>提高企业知名度，对外宣传更正式，客户可以通过企业官网来浏览企业及产品详细信息，增进了解。</span>
+			  </div>
+		    </div>
+		  </div>
+		  <div id="service">
+		    <div id="service_2">
+			  <img style="width:100%;" src="tq/images/3.jpg">
+		      <div id="name">
+			    <span>商铺、工作室网站</span>
+			  </div>
+			  <div id="content_2">
+			    <span>商铺或工作室网站，方便对外进行宣传、方便在互联网上浏览查看信息。</span>
+			  </div>
+		    </div>
+		  </div>
+		  <div id="service">
+		    <div id="service_3">
+			  <img style="width:100%;" src="tq/images/4.jpg">
+		      <div id="name">
+			    <span>个人、家庭网站</span>
+			  </div>
+			  <div id="content_2">
+			    <span>针对个人或家庭建立网站，记录一点一滴的感动和幸福。</span>
+			  </div>
+		    </div>
 		  </div>
 		</div>
 	  </div>

@@ -20,7 +20,7 @@ div#header  {
 div#content  {
 	width:960px;
 	margin:0 auto;
-	min-height:510px;
+	min-height:528px;
 	background-color: #FFFFFF;
 }
 div#nav {
@@ -115,13 +115,13 @@ a {
 }
 
 #service_2 {
-	min-height:240px;padding:0 10px;border-right:1px solid #CCCCCC;
+	min-height:252px;padding:0 10px;border-right:1px solid #CCCCCC;
 	border-top:1px solid #6699FF;
 	border-bottom:1px solid #6699FF;
 }
 
 #service_3 {
-	min-height:240px;padding:0 10px;
+	min-height:252px;padding:0 10px;
 	border-top:1px solid #6699FF;
 	border-bottom:1px solid #6699FF;
 }
