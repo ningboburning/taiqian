@@ -103,19 +103,19 @@
 				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/siyuan" target="_blank">思源实验学校网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校网站上线</a>&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/lizhi" target="_blank">励志中学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/cyh" target="_blank">曹杨韩小学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://lvzhaobo.gicp.net/yiyuan" target="_blank">艺园中心幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
 				</tr>
 			  </table>
 			</div>

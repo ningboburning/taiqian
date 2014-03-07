@@ -55,7 +55,7 @@
 		    </div>
 		    <div style="margin-left:40px;">
 			<span style="font-weight:bold;color:#00A8FF;"></span><br />
-			<span>2010年毕业于郑州大学计算机科学与技术系，一直工作在上海，现已组建梦想之星网站建设团队，针对学校、事业单位、企业、商铺、工作室、个人及家庭建设网站。</span><br />
+			<span>由计算机专业团队组建的梦想之星网站建设工作室，针对学校、事业单位、企业、商铺、工作室、个人及家庭建设网站。</span><br />
 			</div>
 		  </div>
 		</div>
