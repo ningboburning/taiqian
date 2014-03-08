@@ -48,7 +48,7 @@
 	<div id="content">
 	  <div id="main">
 	    <div id="head_news">
-		  
+		  面向台前接受广告宣传，网页展示，新闻发布，欢迎垂询洽谈。
 		</div>
 	    <div id="first" style="width:100%;">
 		  <div id="photo" style="float:left;width:650px;height:350px;">
