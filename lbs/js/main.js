@@ -4,8 +4,8 @@ var map = new BMap.Map("map");                              // 创建Map实例
     map.addControl(new BMap.ScaleControl());                // 添加比例尺控件
     map.addControl(new BMap.OverviewMapControl());          // 添加缩略地图控件
     map.addControl(new BMap.MapTypeControl());              // 添加地图类型控件
-    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11); // 初始化地图,设置中心点坐标和地图级别
-    map.setCurrentCity("北京");                             //由于有3D图，需要设置城市哦
+    map.centerAndZoom(new BMap.Point(116.404, 39.915), 13); // 初始化地图,设置中心点坐标和地图级别
+    //map.setCurrentCity("北京");                             //由于有3D图，需要设置城市哦
 }();
 
 /**
@@ -51,83 +51,43 @@ Util.addLogCount();
      */
     var filterData = [
         {
-            "name"  : "区域",
+            "name"  : "分类",
             "value" : "location",
             "data"  : [
                 {
-                    "name"  : "朝阳",
-                    "value" : "朝阳"
+                    "name"  : "政府机构",
+                    "value" : "政府机构"
                 },
                 {
-                    "name"  : "海淀",
-                    "value" : "海淀"
+                    "name"  : "事业单位",
+                    "value" : "事业单位"
                 },
                 {
-                    "name"  : "东城",
-                    "value" : "东城 "
+                    "name"  : "中学",
+                    "value" : "中学"
+                },
+				{
+                    "name"  : "小学",
+                    "value" : "小学"
                 },
                 {
-                    "name"  : "西城",
-                    "value" : "西城 "
+                    "name"  : "幼儿园",
+                    "value" : "幼儿园"
                 },
                 {
-                    "name"  : "崇文",
-                    "value" : "崇文"
+                    "name"  : "医院药店",
+                    "value" : "医院药店"
                 },
                 {
-                    "name"  : "宣武",
-                    "value" : "宣武"
+                    "name"  : "婚纱摄影",
+                    "value" : "婚纱摄影"
                 },
                 {
-                    "name"  : "丰台",
-                    "value" : "丰台"
-                },
-                {
-                    "name"  : "通州",
-                    "value" : "通州"
-                },
-                {
-                    "name"  : "石景山",
-                    "value" : "石景山"
-                },
-                {
-                    "name"  : "房山",
-                    "value" : "房山"
-                },
-                {
-                    "name"  : "昌平",
-                    "value" : "昌平"
-                },
-                {
-                    "name"  : "大兴",
-                    "value" : "大兴"
-                },
-                {
-                    "name"  : "顺义",
-                    "value" : "顺义"
-                },
-                {
-                    "name"  : "密云",
-                    "value" : "密云"
-                },
-                {
-                    "name"  : "怀柔",
-                    "value" : "怀柔"
-                },
-                {
-                    "name"  : "延庆",
-                    "value" : "延庆"
-                },
-                {
-                    "name"  : "平谷",
-                    "value" : "平谷"
-                },
-                {
-                    "name"  : "门头沟",
-                    "value" : "门头沟"
+                    "name"  : "电脑手机",
+                    "value" : "电脑手机"
                 }
             ]
-        },
+        }/*,
         {
             "name"  : "租金",
             "value" : "dayprice",
@@ -183,7 +143,7 @@ Util.addLogCount();
                     "value" : "4,4"
                 }
             ]
-        }
+        }*/
     ]
 
     for (var i in filterData) { //条件筛选的各个项
@@ -193,7 +153,7 @@ Util.addLogCount();
             ul = $('<ul class="inline"></ul>');
         for(var j in data) { //各个项对应的各详细选项
             var subData = data[j];
-            $('<li><a href="###" value = "' + subData.value + '">' + subData.name +'</a></li>').appendTo(ul);
+            $('<li><a href="#" value = "' + subData.value + '">' + subData.name +'</a></li>').appendTo(ul);
         }
         ul.appendTo($('<dd></dd>')).appendTo(dl);
         dl.appendTo($('#filterBox'));
@@ -288,7 +248,7 @@ Util.addLogCount();
             'page_index' : page,  //页码
             'filter'     : filter.join('|'),  //过滤条件
             //'region'     : '131',  //北京的城市id
-            //'scope'      : '2',  //显示详细信息
+            'scope'      : '2',  //显示详细信息
             'geotable_id': 32835,
             'ak'         : 'LspYwG3FW11O5KrCD024VOHQ'  //用户ak
         },function(e) {
@@ -306,12 +266,12 @@ Util.addLogCount();
 
     //办定列表/地图模式切换事件
     $('#chgMode').bind('click', function(){
-        $('#listBox').toggle('normal');
         $('#mapBox').toggle('normal', function(){
             if ($('#mapBox').is(":visible")) { //单显示地图时候，设置最佳视野
                 map.setViewport(points);
             };
         });
+		$('#listBox').toggle('normal');
     });
 
     /**
@@ -334,14 +294,15 @@ Util.addLogCount();
             var point = new BMap.Point(item.location[0], item.location[1]),
                 marker = new BMap.Marker(point);
             points.push(point);
-            var tr = $("<tr><td width='75%'><a href='" + item.roomurl + "' target='_blank' onclick='Util.addLogCount()'>" + item.title + "<a/><br/>" + item.address + "</td><td width='25%'>" + item.dayprice + "<br/><span style='color:red;'>元/晚</span></td></tr>").click(showInfo);
+            var tr = $("<tr><td width='75%'><a href='" 
+					+ item.roomurl + "' target='_blank' onclick='Util.addLogCount()'>" + item.title + "<a/><br/>" + item.address + "</td><td width='25%'>" 
+					+ item.dayprice + "<br/></td></tr>").click(showInfo);
             $('#mapList').append(tr);;
             marker.addEventListener('click', showInfo);
             function showInfo() {
                 var content = "<img src='" + item.mainimage + "' style='width:111px;height:83px;float:left;margin-right:5px;'/>" +
                               "<p>名称：" + item.title + "</p>" +
-                              "<p>地址：" + item.address + "</p>" +
-                              "<p>价格：" + item.dayprice + "</p>";
+                              "<p>地址：" + item.address + "</p>";
                 //创建检索信息窗口对象
                 var searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
                     title  : item.title,       //标题
@@ -387,12 +348,16 @@ Util.addLogCount();
         $('#listBoby').html('');
 
         if (content.length == 0) {
-            $('#listBoby').append($('<p style="border-top:1px solid #DDDDDD;padding-top:10px;text-align:center;text-align:center;font-size:18px;" class="text-warning">抱歉，没有找到您想要的短租信息，请重新查询</p>'));
+            $('#listBoby').append($('<p style="border-top:1px solid #DDDDDD;padding-top:10px;text-align:center;text-align:center;font-size:18px;" class="text-warning">抱歉，没有找到您想要的信息，请重新查询</p>'));
             return;
         }
 
         $.each(content, function(i, item){
-            $('#listBoby').append("<tr><td width='13%'><img src='" + item.mainimage + "' style='width:111px;height:83px;'/></td><td width='67%'><a href='" + item.roomurl + "' target='_blank' onclick='Util.addLogCount()'>" + item.title + "<a/><br/>地址：" + item.address + "<br/>类型：" + Util.getLeaseNameByType(item.leasetype) + "</td><td width='20%'>" + item.dayprice + " <span style='color:red;'>元/晚</span></td></tr>");;
+            $('#listBoby').append("<tr><td width='13%'><img src='" 
+					+ item.mainimage + "' style='width:111px;height:83px;'/></td><td width='67%'><a href='" + item.roomurl 
+					+ "' target='_blank' onclick='Util.addLogCount()'>" + item.title + "<a/><br/>地址：" + item.address 
+					//+ "<br/>类型：" + Util.getLeaseNameByType(item.leasetype) + "</td><td width='20%'>" + item.dayprice 
+					+ "</tr>");;
         });
 
         /**
