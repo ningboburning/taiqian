@@ -3,6 +3,9 @@
   <head>
     <link rel="stylesheet" type="text/css" href="tq/src/main.css" />
 	<title>家在台前，爱台前@台前网</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="台前 生活 平台">
+    <meta name="description" content="台前生活平台">
 	<LINK href="tq/src/css.css" type=text/css rel=stylesheet>
 	<SCRIPT src="tq/src/xixi.js" type=text/javascript></SCRIPT>
   </head>
@@ -48,7 +51,9 @@
 	<div id="content">
 	  <div id="main">
 	    <div id="head_news">
+		  <span style="padding:20px 10px; text-align:center;">
 		  面向台前接受广告宣传，网页展示，新闻发布，欢迎垂询洽谈。
+		  </span>
 		</div>
 	    <div id="first" style="width:100%;">
 		  <div id="photo" style="float:left;width:650px;height:350px;">
