@@ -286,7 +286,7 @@ Util.addLogCount();
         points.length = 0;
 
         if (content.length == 0) {
-            $('#mapList').append($('<p style="border-top:1px solid #DDDDDD;padding-top:10px;text-align:center;text-align:center;font-size:18px;" class="text-warning">抱歉，没有找到您想要的短租信息，请重新查询</p>'));
+            $('#mapList').append($('<p style="border-top:1px solid #DDDDDD;padding-top:10px;text-align:center;text-align:center;font-size:18px;" class="text-warning">抱歉，没有找到您想要的信息，请重新查询</p>'));
             return;
         }
 

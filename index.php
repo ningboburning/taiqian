@@ -41,7 +41,7 @@
 		  <ul>
 		    <li><a href="index.php" title="">首页</a></li>
 		    <li><a href="items.php" title="">入驻客户</a></li>
-			<li><a href="#" title="">论坛</a></li>
+			<li><a href="lbs/index.php" title="">地图搜索</a></li>
 			<li><a href="#" title="">业务合作</a></li>
 			<li><a href="about.php" title="">关于我们</a></li>
 			<li><a href="contect.php" title="">联系我们</a></li>
