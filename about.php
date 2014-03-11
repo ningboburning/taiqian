@@ -38,7 +38,7 @@
 		  <ul>
 		    <li><a href="index.php" title="">首页</a></li>
 		    <li><a href="items.php" title="">入驻客户</a></li>
-			<li><a href="lbs/lbs.php" title="">地图搜索</a></li>
+			<li><a href="lbs/index.php" title="">地图搜索</a></li>
 			<li><a href="#" title="">业务合作</a></li>
 			<li class="seleted"><a href="about.php" title="">关于我们</a></li>
 			<li><a href="contect.php" title="">联系我们</a></li>
@@ -108,6 +108,10 @@
 	  </div>
 	</div>
 	<div id="footer">
+	  <div style="margin-top:20px;text-align:center;font-size:12px;line-height:24px;">
+	    <a href="about.php" style="">技术支持@梦想之星工作室</a><br />
+		<span style="">建议使用IE8及以上、火狐、Chrome等浏览器浏览</span>
+	  </div>
 	</div>
   </body>
 </html>
