@@ -63,7 +63,6 @@
 		  <div id="service">
 		    <div id="service_2">
 		      <div id="name">
-			    <img style="width:100%;" src="tq/images/1.jpg">
 			    <span>学校、事业单位官网</span>
 			  </div>
 			  <div id="content_2">
@@ -73,7 +72,6 @@
 		  </div>
 		  <div id="service">
 		    <div id="service_2">
-			  <img style="width:100%;" src="tq/images/2.jpg">
 		      <div id="name">
 			    <span>企业官网</span>
 			  </div>
@@ -84,7 +82,6 @@
 		  </div>
 		  <div id="service">
 		    <div id="service_2">
-			  <img style="width:100%;" src="tq/images/3.jpg">
 		      <div id="name">
 			    <span>商铺、工作室网站</span>
 			  </div>
@@ -95,7 +92,6 @@
 		  </div>
 		  <div id="service">
 		    <div id="service_3">
-			  <img style="width:100%;" src="tq/images/4.jpg">
 		      <div id="name">
 			    <span>个人、家庭网站</span>
 			  </div>
