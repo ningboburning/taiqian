@@ -4,7 +4,7 @@ var map = new BMap.Map("map");                              // 创建Map实例
     map.addControl(new BMap.ScaleControl());                // 添加比例尺控件
     map.addControl(new BMap.OverviewMapControl());          // 添加缩略地图控件
     map.addControl(new BMap.MapTypeControl());              // 添加地图类型控件
-    map.centerAndZoom(new BMap.Point(116.404, 39.915), 13); // 初始化地图,设置中心点坐标和地图级别
+    map.centerAndZoom(new BMap.Point(115.863812,36.001218), 13); // 初始化地图,设置中心点坐标和地图级别
     //map.setCurrentCity("北京");                             //由于有3D图，需要设置城市哦
 }();
 
@@ -296,13 +296,13 @@ Util.addLogCount();
             points.push(point);
             var tr = $("<tr><td width='75%'><a href='" 
 					+ item.roomurl + "' target='_blank' onclick='Util.addLogCount()'>" + item.title + "<a/><br/>" + item.address + "</td><td width='25%'>" 
-					+ item.dayprice + "<br/></td></tr>").click(showInfo);
+					+ item.dayprice + "<br/></td></tr>").mouseover(showInfo);
             $('#mapList').append(tr);;
-            marker.addEventListener('click', showInfo);
+            marker.addEventListener('mouseover', showInfo);
             function showInfo() {
-                var content = "<img src='" + item.mainimage + "' style='width:111px;height:83px;float:left;margin-right:5px;'/>" +
-                              "<p>名称：" + item.title + "</p>" +
-                              "<p>地址：" + item.address + "</p>";
+                var content = "<div style='font-size:12px;'><img src='" + item.mainimage + "' style='width:111px;height:83px;float:left;margin-right:5px;'/>" +
+                              "<span>名称：" + item.title + "</span>" +"<br />"+
+                              "<span>地址：" + item.address + "</span></div>";
                 //创建检索信息窗口对象
                 var searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
                     title  : item.title,       //标题
