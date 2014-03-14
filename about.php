@@ -59,6 +59,17 @@
 			</div>
 		  </div>
 		</div>
+		<div id="news_content">
+		    <br />
+		    <div id="category_title">
+		      <span>商家入驻</span>
+		    </div>
+		    <div style="margin-left:40px;">
+			<span style="font-weight:bold;color:#00A8FF;"></span><br />
+			<span>台前网针对台前及附近地区进行广告招租、新闻宣传、网站定制等，具体事宜请联系我们。</span><br />
+			</div>
+		  </div>
+		</div>
 		<div id="second" style="width:100%;padding:10px;font:12px/1.5 tahoma,arial,宋体;">
 		  <div id="service">
 		    <div id="service_2">

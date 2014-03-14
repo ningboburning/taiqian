@@ -57,9 +57,7 @@
 			<span style="font-weight:bold;color:#00A8FF;">吕昭波（网站建设）</span><br />
 			<span>电话：13472604861（上海）</span><br />
 			<span>QQ：794683095</span><br />
-			<span>邮箱：lvzhaobopku@163.com</span><br />
-			<span style="font-weight:bold;color:#00A8FF;">吕昭武（业务洽谈、技术实施）</span><br />
-			<span>电话：13223977255（台前）</span>
+			<span>邮箱：lvzhaobopku@163.com</span>
 			</div>
 		  </div>
 		</div>
