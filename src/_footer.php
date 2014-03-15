@@ -1,6 +1,6 @@
 <?php 
 	echo '<div id="footer">
-	  <div style="margin-top:20px;text-align:center;font-size:12px;line-height:24px;">
-	    <a href="about.php" style="">技术支持@梦想之星工作室</a><br />
-		<span style="">建议使用IE8及以上、火狐、Chrome等浏览器浏览</span>
+	  <div style="margin-top:20px;text-align:center;font-size:12px;font-weight:bold;line-height:24px;">
+	    <a href="about.php" style="">锟斤拷锟斤拷支锟斤拷@锟斤拷锟斤拷之锟角癸拷锟斤拷锟斤拷</a><br />
+		<span style="">锟斤拷锟斤拷使锟斤拷IE8锟斤拷锟斤拷锟较★拷锟斤拷锟斤拷锟紺hrome锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷</span>
 	  </div>';
