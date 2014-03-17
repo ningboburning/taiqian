@@ -1,6 +1,6 @@
 <?php 
 	echo '<div id="footer">
 	  <div style="margin-top:20px;text-align:center;font-size:12px;font-weight:bold;line-height:24px;">
-	    <a href="about.php" style="">æŠ€æœ¯æ”¯æŒ@æ¢¦æƒ³ä¹‹æ˜Ÿå·¥ä½œå®¤</a><br />
-		<span style="">å»ºè®®ä½¿ç”¨IE8åŠä»¥ä¸Šã€ç«ç‹ã€Chromeç­‰æµè§ˆå™¨æµè§ˆ</span>
+	    <a href="about.php" style="">¼¼ÊõÖ§³Ö@ÃÎÏëÖ®ÐÇ¹¤×÷ÊÒ</a><br />
+		<span style="">½¨ÒéÊ¹ÓÃIE8¼°ÒÔÉÏ¡¢»ðºü¡¢ChromeµÈä¯ÀÀÆ÷ä¯ÀÀ</span>
 	  </div>';
