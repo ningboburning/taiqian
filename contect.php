@@ -1,22 +1,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="tq/src/main.css" />
-	<title>����̨ǰ����̨ǰ@̨ǰ��</title>
-	<LINK href="tq/src/css.css" type=text/css rel=stylesheet>
-	<SCRIPT src="tq/src/xixi.js" type=text/javascript></SCRIPT>
+	<title>家在台前，爱台前@台前网</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="台前 生活 平台">
+    <meta name="description" content="台前生活平台">
   </head>
   <body>
     <?php include "src/_header.php";?>
 	<div id="nav">
 	    <div id="nav_content">
 		  <ul>
-		    <li><a href="index.php" title="">��ҳ</a></li>
-		    <li><a href="items.php" title="">��פ�ͻ�</a></li>
-			<li><a href="lbs/index.php" title="">��ͼ����</a></li>
-			<li><a href="#" title="">ҵ�����</a></li>
-			<li><a href="about.php" title="">��������</a></li>
-			<li class="seleted"><a href="contect.php" title="">��ϵ����</a></li>
+		    <li><a href="index.php" title="">首页</a></li>
+		    <li><a href="items.php" title="">入驻客户</a></li>
+			<li><a href="lbs/index.php" title="">地图搜索</a></li>
+			<li><a href="#" title="">业务合作</a></li>
+			<li><a href="about.php" title="">关于我们</a></li>
+			<li class="seleted"><a href="contect.php" title="">联系我们</a></li>
 		  </ul>
 		</div>
 	  </div>
@@ -26,13 +28,13 @@
 		  <div id="news_content">
 		    <br />
 		    <div id="category_title">
-		      <span>��ϵ����</span>
+		      <span>联系我们</span>
 		    </div>
 		    <div style="margin-left:40px;">
-			<span style="font-weight:bold;color:#00A8FF;">���Ѳ�����վ���裩</span><br />
-			<span>�绰��13472604861���Ϻ���</span><br />
-			<span>QQ��794683095</span><br />
-			<span>���䣺lvzhaobopku@163.com</span>
+			<span style="font-weight:bold;color:#00A8FF;">吕昭波</span><br />
+			<span>电话：13472604861（上海）</span><br />
+			<span>QQ：794683095</span><br />
+			<span>邮箱：lvzhaobopku@163.com</span>
 			</div>
 		  </div>
 		</div>

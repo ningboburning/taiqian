@@ -98,26 +98,12 @@
     </div>
 	</div>
 	</div>
-
     <script src="http://api.map.baidu.com/api?v=1.5&ak=LspYwG3FW11O5KrCD024VOHQ" type="text/javascript"></script>
     <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script src="js/jquery.pager.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript">
-    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F59df2806844f63df2dca6881f0f4b7a1' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-	<div id="footer">
-	  <div style="margin-top:20px;text-align:center;font-size:12px;line-height:24px;">
-	    <a href="../about.php" style="">技术支持@梦想之星工作室</a><br />
-		<span style="">建议使用IE8及以上、火狐、Chrome等浏览器浏览</span>
-	  </div>
-	</div>
-	<script type="text/javascript">
-		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8a2bda973b9a9ddb210f2d43cfeedbcf' type='text/javascript'%3E%3C/script%3E"));
-	</script>
+    <?php include "../src/_footer.php"?>
 </body>
 </html>

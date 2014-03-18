@@ -1,10 +1,17 @@
 <?php 
-	echo '<div id="footer">
+	echo <<<EOF
+			<div id="footer">
 			  <div style="margin-top:20px;text-align:center;font-size:12px;font-weight:bold;line-height:24px;">
-				<a href="about.php" style="">¼¼ÊõÖ§³Ö@ÃÎÏëÖ®ĞÇ¹¤×÷ÊÒ</a><br />
-				<span style="">½¨ÒéÊ¹ÓÃIE8¼°ÒÔÉÏ¡¢»ğºü¡¢ChromeµÈä¯ÀÀÆ÷ä¯ÀÀ</span>
+				<a href="about.php" style="">æŠ€æœ¯æ”¯æŒ@æ¢¦æƒ³ä¹‹æ˜Ÿå·¥ä½œå®¤</a><br />
+				<span style="">å»ºè®®ä½¿ç”¨IE8åŠä»¥ä¸Šã€ç«ç‹ã€Chromeç­‰æµè§ˆå™¨æµè§ˆ</span><br />
+				<div>
+				  <span>ä½¿ç”¨ç™¾åº¦ç»Ÿè®¡</span>
+				  <script type="text/javascript">
+					var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+					document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8a2bda973b9a9ddb210f2d43cfeedbcf' type='text/javascript'%3E%3C/script%3E"));
+				  </script>
+				</div>
 			  </div>
-			  <script type="text/javascript">
-			var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-			document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8a2bda973b9a9ddb210f2d43cfeedbcf' type='text/javascript'%3E%3C/script%3E"));
-			</script>';
+			</div>
+			<div class="clearfloat"></div>
+EOF;
