@@ -29,19 +29,18 @@
 		      <span>关于我们</span>
 		    </div>
 		    <div style="margin-left:40px;">
-			<span style="font-weight:bold;color:#00A8FF;"></span><br />
-			<span>由计算机专业团队组建的梦想之星网站建设工作室，针对学校、事业单位、企业、商铺、工作室、个人及家庭建设网站。</span><br />
+			<span style="font-weight:bold;color:#00A8FF;"></span>
+			<span>由计算机专业团队组建的梦想之星网站建设工作室，针对学校、事业单位、企业、商铺、工作室、个人及家庭建设网站。</span>
 			</div>
 		  </div>
 		</div>
 		<div id="news_content">
-		    <br />
 		    <div id="category_title">
 		      <span>商家入驻</span>
 		    </div>
 		    <div style="margin-left:40px;">
-			<span style="font-weight:bold;color:#00A8FF;"></span><br />
-			<span>台前网针对台前及附近地区进行广告招租、新闻宣传、网站定制等，具体事宜请联系我们。</span><br />
+			<span style="font-weight:bold;color:#00A8FF;"></span>
+			<span>台前网针对台前及附近地区进行广告招租、新闻宣传、网站定制等，具体事宜请联系我们。</span>
 			</div>
 		  </div>
 		</div>
