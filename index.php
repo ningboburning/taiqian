@@ -69,16 +69,11 @@
 		    </div>
 		  </div>
 		  <div id="notice" style="float:left;width:300px;height:350px;border-left:1px solid #CCCCCC;">
-		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;border-right:1px solid #CCCCCC; border-top:1px solid #CCCCCC;">
-			  <div>
-			    <table>
-			      <tr style="width:100%;height:28px;background:-moz-linear-gradient(#0099FF, #286DA3) repeat scroll 0 0 transparent;">
-				    <th style="width:1px;"></th>
-				    <td style="width:300px;">
-				      <span style="font-size:14px;margin-left:10px;font-weight:bold;">联系方式</span>
-				    </td>
-				  </tr>
-			    </table>
+		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;">
+			  <div style="width:100%;height:28px;background-color:#F2F2F2;">
+				<div style="width:100%;border-top:2px solid #0099FF;">
+				  <span style="font-size:14px;margin-left:10px;font-weight:bold;">联系方式</span>
+				</div>
 			  </div>
 			  <div style="padding:10px;">
 			    <div>
@@ -88,72 +83,71 @@
 				</div>
 			  </div>
 			</div>
-		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;min-height:210px;border-right:1px solid #CCCCCC;">
-			  <table>
-			    <tr style="width:100%;height:28px;background:-moz-linear-gradient(#0099FF, #286DA3) repeat scroll 0 0 transparent;">
-				  <th style="width:1px;"></th>
-				  <td style="width:300px;">
-				    <span style="font-size:14px;margin-left:10px;font-weight:bold;">新闻动态</span>
-				  </td>
-				</tr>
+		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;min-height:210px;">
+			  <div style="width:100%;height:28px;background-color:#F2F2F2;">
+				<div style="width:100%;border-top:2px solid #0099FF;">
+				  <span style="font-size:14px;margin-left:10px;font-weight:bold;">商家动态</span>
+				</div>
+			  </div>
+			  <table style="width:100%;">
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th>
 				  <td>[通知] 
-				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014-01-26</td>
+				    <a href="dreamstar.html">梦想之星网站工作室</a></td><td width="72px;">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>
 		  </div>
 		</div>
 		<div>
-		  <div id="notice" style="float:left;width:300px;border-left:1px solid #CCCCCC;">
+		  <div id="notice" style="float:left;width:300px;">
 		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;min-height:210px;border-right:1px solid #CCCCCC;">
 			  <table>
 			    <tr style="width:100%;height:28px;">
 				  <th style="width:1px;"></th>
 				  <td style="width:300px;border-top:2px solid #0099FF;">
-				    <span style="font-size:14px;margin-left:10px;font-weight:bold;">新闻动态</span>
+				    <span style="font-size:14px;margin-left:10px;font-weight:bold;">台前新闻</span>
 				  </td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th>
-				  <td>[通知] 
-				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th>
+				  <td>
+				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td width="72px;">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校召开家长会</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>
 		  </div>
-		  <div id="notice" style="float:left;width:348px;border-left:1px solid #CCCCCC;">
+		  <div id="notice" style="float:left;width:351px;">
 		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;min-height:210px;border-right:1px solid #CCCCCC;">
 			  <table>
 			    <tr style="width:100%;height:28px;">
@@ -163,56 +157,55 @@
 				  </td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th>
 				  <td>
-				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014-01-26</td>
+				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td width="72px">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td><a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td><a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td><a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td><a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td><a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>
 		  </div>
-		  <div id="notice" style="float:left;width:300px;border-left:1px solid #CCCCCC;">
-		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;min-height:210px;border-right:1px solid #CCCCCC;">
+		  <div id="notice" style="float:left;width:300px;">
+		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;min-height:210px;">
+			  <div style="width:100%;height:28px;background-color:#F2F2F2;">
+				<div style="width:100%;border-top:2px solid #0099FF;">
+				  <span style="font-size:14px;margin-left:10px;font-weight:bold;">信息</span>
+				</div>
+			  </div>
 			  <table>
-			    <tr style="width:100%;height:28px;">
-				  <th style="width:1px;"></th>
-				  <td style="width:300px;border-top:2px solid #0099FF;">
-				    <span style="font-size:14px;margin-left:10px;font-weight:bold;">新闻动态</span>
-				  </td>
-				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th>
 				  <td>[通知] 
-				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014-01-26</td>
+				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td width="72px;">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校网站上线</a>&nbsp;&nbsp;</td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th style="background-color:#FF9900;">&nbsp;</th><td>[通知] <a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a>&nbsp;&nbsp;2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>

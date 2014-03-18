@@ -15,7 +15,7 @@
 			<div style="margin:8px 0 0 0px;float:left;">
 		      <span style="font-size:22px;color:#0099FF;">一站式生活平台</span>
 			</div>
-			<div style="margin:12px 0 0 48px;float:left;font-size:14px;">
+			<div style="margin:0px 0 0 48px;float:left;font-size:14px;">
 		      <span style="color:#666666;">由 </span><span style="color:#FF9900;">梦想之星工作室</span><span style="color:#666666;"> 提供技术支持</span>
 			  <br />
 			  <span style="font-weight:normal;"><?php echo date("Y年m月d日 H:i:s",time())?></span><br />
