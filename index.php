@@ -24,12 +24,36 @@
 		  </ul>
 		</div>
 	  </div>
+  
 	<div id="content">
 	  <div id="main">
 	    <div id="head_news">
-		  <span style="padding:20px 10px; text-align:center;">
-		  面向台前接受广告宣传，网页展示，新闻发布，欢迎垂询洽谈。
-		  </span>
+		  <div id=demo style="overflow:hidden;padding:0 10px;height:28px;color:#0099FF;">
+	    <table align=left cellpadding=0 cellspace=0 border=0>
+		  <tr>
+		    <div id="demo1" style="width:100%;">
+			  <span style="text-align:center;line-height:20px;white-space:nowrap;width:400px;">面向台前接受广告宣传，网页展示，新闻发布，欢迎垂询洽谈。  面向台前接受广告宣传，网页展示，新闻发布，欢迎垂询洽谈。  面向台前接受广告宣传，网页展示，新闻发布，欢迎垂询洽谈。  面向台前接受广告宣传，网页展示，新闻发布，欢迎垂询洽谈。  面向台前接受广告宣传，网页展示，新闻发布，欢迎垂询洽谈。</span>
+		    </div>
+		    <div id=demo2></div>
+	      </tr>
+        </table>
+	  </div>
+	  <script>
+  var speed=2
+  demo2.innerHTML=demo1.innerHTML
+  demo.scrollLeft = 0
+  function Marquee(){
+    if(demo2.offsetWidth<=demo.scrollLeft){
+      demo.scrollLeft=0
+    }
+    else{
+      demo.scrollLeft++
+    }
+  }
+  var MyMar=setInterval(Marquee,speed)
+  demo.onmouseover=function() {clearInterval(MyMar)}
+  demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+  </script>
 		</div>
 	    <div id="first" style="width:100%;">
 		  <div id="photo" style="float:left;width:650px;height:350px;">
