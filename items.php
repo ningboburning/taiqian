@@ -11,17 +11,16 @@
   <body>
     <?php include "src/_header.php";?>
 	<div id="nav">
-	    <div id="nav_content">
-		  <ul>
-		    <li><a href="index.php" title="">首页</a></li>
-		    <li class="seleted"><a href="items.php" title="">入驻客户</a></li>
-			<li><a href="lbs/index.php" title="">地图搜索</a></li>
-			<li><a href="#" title="">业务合作</a></li>
-			<li><a href="about.php" title="">关于我们</a></li>
-			<li><a href="contect.php" title="">联系我们</a></li>
-		  </ul>
-		</div>
+	  <div id="nav_content">
+		<ul>
+		  <li><a href="index.php" title="">首页</a></li>
+		  <li><a href="lbs/index.php" title="">地图搜索</a></li>
+		  <li class="seleted"><a href="items.php" title="">入驻客户</a></li>
+		  <li><a href="about.php" title="">关于我们</a></li>
+		  <li><a href="contect.php" title="">联系我们</a></li>
+		</ul>
 	  </div>
+	</div>
 	<div id="content">
 	  <div id="main">
 		<div id="second" style="width:100%;padding:10px;font:12px/1.5 tahoma,arial,ËÎÌå;">
@@ -42,7 +41,7 @@
 				for($i=0;$i<$numbers;$i++){
 			?>
 			<div id="service">
-			  <a href="<?php echo 'http://taiqianwang.eicp.net/'.$values[$i%$numbers]["url"]?>" target="_blank">
+			  <a href="<?php echo '/'.$values[$i%$numbers]["url"]?>" target="_blank">
 				<div id="service_2">
 				  <div id="name">
 					<img style="width:100%;" src="tq/images/<?php echo $i%$numbers+1?>.jpg">
@@ -76,7 +75,7 @@
 				for($i=0;$i<$numbers;$i++){
 			?>
 			<div id="service">
-			  <a href="<?php echo 'http://taiqianwang.eicp.net/'.$values[$i%$numbers]["url"]?>" target="_blank">
+			  <a href="<?php echo '/'.$values[$i%$numbers]["url"]?>" target="_blank">
 				<div id="service_2">
 				  <div id="name">
 					<img style="width:100%;" src="tq/images/<?php echo $i%$numbers+1?>.jpg">

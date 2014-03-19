@@ -1,6 +1,9 @@
 var map = new BMap.Map("map");                              // 创建Map实例
 !function(){ //初始化地图模块相关代码
-    map.enableScrollWheelZoom();                            // 启用滚轮放大缩小 map.enableContinuousZoom();                             // 启用地图惯性拖拽，默认禁用 map.enableInertialDragging();                           // 启用连续缩放效果，默认禁用。 map.addControl(new BMap.NavigationControl());           // 添加平移缩放控件
+    map.enableScrollWheelZoom();                            // 启用滚轮放大缩小 
+	map.enableContinuousZoom();                             // 启用地图惯性拖拽，默认禁用 
+	map.enableInertialDragging();                           // 启用连续缩放效果，默认禁用。 
+	map.addControl(new BMap.NavigationControl());           // 添加平移缩放控件
     map.addControl(new BMap.ScaleControl());                // 添加比例尺控件
     map.addControl(new BMap.OverviewMapControl());          // 添加缩略地图控件
     map.addControl(new BMap.MapTypeControl());              // 添加地图类型控件
@@ -296,7 +299,7 @@ Util.addLogCount();
             points.push(point);
             var tr = $("<tr><td width='75%'><a href='" 
 					+ item.roomurl + "' target='_blank' onclick='Util.addLogCount()'>" + item.title + "<a/><br/>" + item.address + "</td><td width='25%'>" 
-					+ item.dayprice + "<br/></td></tr>").mouseover(showInfo);
+					+ "<br/></td></tr>").mouseover(showInfo);
             $('#mapList').append(tr);;
             marker.addEventListener('mouseover', showInfo);
             function showInfo() {

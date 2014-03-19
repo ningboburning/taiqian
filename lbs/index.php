@@ -19,9 +19,8 @@
 			<div id="nav_content">
 			  <ul>
 				<li><a href="../index.php" title="">首页</a></li>
-				<li><a href="../items.php" title="">入驻客户</a></li>
 				<li class="seleted"><a href="index.php" title="">地图搜索</a></li>
-				<li><a href="#" title="">业务合作</a></li>
+				<li><a href="../items.php" title="">入驻客户</a></li>
 				<li><a href="../about.php" title="">关于我们</a></li>
 				<li><a href="../contect.php" title="">联系我们</a></li>
 			  </ul>
@@ -35,7 +34,7 @@
 			<div class="container" id = "header">
             <div id="filterBox">
             </div>
-            <div id="toolsBar" class="clearfix">
+            <div id="toolsBar" class="clearfix" style="margin:10px;">
                 <div class="pull-left">
                     <input type="search" id="keyword" class="input-large search-query" placeholder="输入检索关键字">
                     <span class="btn btn-primary" id="searchBtn">搜索</span>

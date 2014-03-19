@@ -5,8 +5,8 @@ body {
 	font-family:"Î¢ÈíÑÅºÚ";
     #font-size:12px;
 	# background-image: url("header7.jpg");
-	background-color: #DDEAEA;
-	background: linear-gradient(#DDEAEA, #EADDDA) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	#background-color: #DDEAEA;
+	#background: linear-gradient(#DDEAEA, #EADDDA) repeat scroll 0 0 rgba(0, 0, 0, 0);
 	# EADDDA
 	# width: 960px;
 	margin: 0 auto;

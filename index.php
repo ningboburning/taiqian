@@ -13,18 +13,16 @@
   <body>
     <?php include "src/_header.php";?>
 	<div id="nav">
-	    <div id="nav_content">
-		  <ul>
-		    <li><a href="index.php" title="">首页</a></li>
-		    <li><a href="items.php" title="">入驻客户</a></li>
-			<li><a href="lbs/index.php" title="">地图搜索</a></li>
-			<li><a href="#" title="">业务合作</a></li>
-			<li><a href="about.php" title="">关于我们</a></li>
-			<li><a href="contect.php" title="">联系我们</a></li>
-		  </ul>
-		</div>
+	  <div id="nav_content">
+		<ul>
+		  <li><a href="index.php" title="">首页</a></li>
+		  <li><a href="lbs/index.php" title="">地图搜索</a></li>
+		  <li><a href="items.php" title="">入驻客户</a></li>
+		  <li><a href="about.php" title="">关于我们</a></li>
+		  <li><a href="contect.php" title="">联系我们</a></li>
+		</ul>
 	  </div>
-  
+	</div>
 	<div id="content">
 	  <div id="main">
 	    <div id="head_news">
@@ -39,7 +37,7 @@
         </table>
 	  </div>
 	  <script>
-  var speed=2
+  var speed=30
   demo2.innerHTML=demo1.innerHTML
   demo.scrollLeft = 0
   function Marquee(){
@@ -121,19 +119,19 @@
 				    <a href="dreamstar.html">梦想之星网站工作室</a></td><td width="72px;">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/siyuan" target="_blank">思源实验学校网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>
@@ -155,19 +153,19 @@
 				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td width="72px;">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校召开家长会</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/siyuan" target="_blank">思源实验学校召开家长会</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>
@@ -187,19 +185,19 @@
 				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td width="72px">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/siyuan" target="_blank">思源实验学校网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>
@@ -218,19 +216,19 @@
 				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td width="72px;">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/siyuan" target="_blank">思源实验学校网站上线</a>&nbsp;&nbsp;</td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/siyuan" target="_blank">思源实验学校网站上线</a>&nbsp;&nbsp;</td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="http://taiqianwang.eicp.net/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>
@@ -252,7 +250,7 @@
 				for($i=0;$i<$numbers;$i++){
 			?>
 			<div id="service">
-			<a href="<?php echo 'http://taiqianwang.eicp.net/'.$values[$i%$numbers]["url"]?>" target="_blank">
+			<a href="<?php echo '/'.$values[$i%$numbers]["url"]?>" target="_blank">
 		    <div id="service_2">
 		      <div id="name">
 			    <img style="width:100%;" src="tq/images/<?php echo $i%$numbers+1?>.jpg">
@@ -270,50 +268,6 @@
 		    ?>
 		  <br />
 		  <div class="clearfloat" style=""></div>
-		  <div id="service">
-		    <div id="service_2">
-		      <div id="name">
-			    <img style="width:100%;" src="tq/images/1.jpg">
-			    <span>学校官网</span>
-			  </div>
-			  <div id="content_2">
-			    <span>简单介绍校园文化。</span>
-			  </div>
-		    </div>
-		  </div>
-		  <div id="service">
-		    <div id="service_2">
-			  <img style="width:100%;" src="tq/images/2.jpg">
-		      <div id="name">
-			    <span>师资力量</span>
-			  </div>
-			  <div id="content_2">
-			    <span>整体概括师资力量。</span>
-			  </div>
-		    </div>
-		  </div>
-		  <div id="service">
-		    <div id="service_2">
-			  <img style="width:100%;" src="tq/images/3.jpg">
-		      <div id="name">
-			    <span>莘莘学子</span>
-			  </div>
-			  <div id="content_2">
-			    <span>整体介绍学生。</span>
-			  </div>
-		    </div>
-		  </div>
-		  <div id="service">
-		    <div id="service_3">
-			  <img style="width:100%;" src="tq/images/4.jpg">
-		      <div id="name">
-			    <span>综合管理</span>
-			  </div>
-			  <div id="content_2">
-			    <span>介绍综合管理。也可以展示其他内容或主题，本网站的文字是占位符，可修改。</span>
-			  </div>
-		    </div>
-		  </div>
 		</div>
 	  </div>
 	  <div class="clearfloat"></div>
