@@ -4,7 +4,7 @@ var map = new BMap.Map("map");                              // 创建Map实例
     map.addControl(new BMap.ScaleControl());                // 添加比例尺控件
     map.addControl(new BMap.OverviewMapControl());          // 添加缩略地图控件
     map.addControl(new BMap.MapTypeControl());              // 添加地图类型控件
-    map.centerAndZoom(new BMap.Point(115.863812,36.001218), 13); // 初始化地图,设置中心点坐标和地图级别
+    map.centerAndZoom(new BMap.Point(115.863812,36.001218), 14); // 初始化地图,设置中心点坐标和地图级别
     //map.setCurrentCity("北京");                             //由于有3D图，需要设置城市哦
 }();
 
@@ -248,7 +248,7 @@ Util.addLogCount();
             'page_index' : page,  //页码
             'filter'     : filter.join('|'),  //过滤条件
             //'region'     : '131',  //北京的城市id
-            'scope'      : '2',  //显示详细信息
+            //'scope'      : '2',  //显示详细信息
             'geotable_id': 32835,
             'ak'         : 'LspYwG3FW11O5KrCD024VOHQ'  //用户ak
         },function(e) {
@@ -264,7 +264,7 @@ Util.addLogCount();
         });
     });
 
-    //办定列表/地图模式切换事件
+    //绑定列表/地图模式切换事件
     $('#chgMode').bind('click', function(){
         $('#mapBox').toggle('normal', function(){
             if ($('#mapBox').is(":visible")) { //单显示地图时候，设置最佳视野
@@ -306,7 +306,7 @@ Util.addLogCount();
                 //创建检索信息窗口对象
                 var searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
                     title  : item.title,       //标题
-                    width  : 290,             //宽度
+                    width  : 280,             //宽度
                     panel  : "panel",         //检索结果面板
                     enableAutoPan : true,     //自动平移
                     searchTypes   :[
@@ -353,7 +353,7 @@ Util.addLogCount();
         }
 
         $.each(content, function(i, item){
-            $('#listBoby').append("<tr><td width='13%'><img src='" 
+            $('#listBoby').append("<tr style='float:left;width:460px;'><td width='13%'><img src='" 
 					+ item.mainimage + "' style='width:111px;height:83px;'/></td><td width='67%'><a href='" + item.roomurl 
 					+ "' target='_blank' onclick='Util.addLogCount()'>" + item.title + "<a/><br/>地址：" + item.address 
 					//+ "<br/>类型：" + Util.getLeaseNameByType(item.leasetype) + "</td><td width='20%'>" + item.dayprice 
