@@ -2,7 +2,7 @@ html {
 	width: 100%;
 }
 body {
-	font-family:"Î¢ÈíÑÅºÚ";
+	font-family:"å¾®è½¯é›…é»‘";
     #font-size:12px;
 	# background-image: url("header7.jpg");
 	#background-color: #DDEAEA;
@@ -35,7 +35,7 @@ div#nav {
 	height:40px;
 	#border: 1px solid #CCCCCC;
 	#border-radius: 0.5em;
-	font: 14px/1.5 tahoma,arial,ËÎÌå;
+	font: 14px/1.5 tahoma,arial,å®‹ä½“;
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	font-weight: bold;
 	margin: 0px;
@@ -151,7 +151,7 @@ a {
 
 p {
 	# background-color: gray;
-	font: 14px/1.5 tahoma,arial,ËÎÌå;
+	font: 14px/1.5 tahoma,arial,å®‹ä½“;
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	text-indent: 2em;
 	line-height: 28px;
@@ -160,7 +160,7 @@ p {
 #navgation {
 	background:-moz-linear-gradient(left, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
 	padding: 4px 32px 0 32px;
-	font: 13px/1.5 tahoma,arial,ËÎÌå;
+	font: 13px/1.5 tahoma,arial,å®‹ä½“;
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	# font-weight: bold;
 	line-height: 28px;
@@ -184,7 +184,7 @@ p {
 	padding: 10px 32px;
 	#border-top: 2px solid #90FFCC;
 	#border-top: 1px inset #90FFCC;
-	font: 14px/1.5 tahoma,arial,ËÎÌå;
+	font: 14px/1.5 tahoma,arial,å®‹ä½“;
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	line-height: 28px;
 }

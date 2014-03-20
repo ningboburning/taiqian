@@ -86,8 +86,20 @@ Util.addLogCount();
                     "value" : "婚纱摄影"
                 },
                 {
+                    "name"  : "家具家居",
+                    "value" : "家具家居"
+                },
+                {
                     "name"  : "电脑手机",
                     "value" : "电脑手机"
+                },
+                {
+                    "name"  : "娱乐",
+                    "value" : "娱乐"
+                },
+                {
+                    "name"  : "小区",
+                    "value" : "小区"
                 }
             ]
         }/*,
