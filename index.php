@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta charset="utf-8">
+	<!-- svDYU-6b7BoTz24E1OOr0sSYhDQ -->
     <link rel="stylesheet" type="text/css" href="tq/src/main.css" />
 	<title>家在台前，爱台前@台前网</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,18 +57,17 @@
 	    <div id="first" style="width:100%;">
 		  <div id="photo" style="float:left;width:650px;height:350px;">
 		    <div style="padding:5px;">
-		      <!--<img src="baby.jpg" style="width:640px;height:340px;">-->
 				<DIV class=ddindex_content_lz id=__E_lunzhuan>
 					<DIV id=lantern>
 						<DIV id=lanternMain>
 							<DIV id=lanternImg></DIV>
 						</DIV>
 						<DIV style="BORDER-TOP: #ffffff 1px solid; FLOAT: left; BORDER-BOTTOM: #ffffff 1px solid">
-							<IMG onclick=Lantern.moveprevious(); src="src/index_banner_lz_02_left.gif">
+							<IMG onclick=Lantern.moveprevious(); src="tq/src/index_banner_lz_02_left.gif">
 						</DIV>
 						<DIV id=lanternNavy></DIV>
 						<DIV style="BORDER-TOP: #ffffff 1px solid; FLOAT: left; BORDER-BOTTOM: #ffffff 1px solid">
-							<IMG onclick=Lantern.movenext(); src="src/index_banner_lz_02_right.gif">
+							<IMG onclick=Lantern.movenext(); src="tq/src/index_banner_lz_02_right.gif">
 						</DIV>
 						<SCRIPT type=text/javascript>
 							document.lanterninfo=function(){
@@ -115,23 +115,23 @@
 			  <table style="width:100%;">
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
 				  <th><span style="background-color:#FF9900;">&nbsp;</span></th>
-				  <td>[通知] 
-				    <a href="dreamstar.html">梦想之星网站工作室</a></td><td width="72px;">2014-01-26</td>
+				  <td>
+				    <a href="dreamstar.html">（上海）梦想之星网站工作室</a></td><td width="72px;">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/siyuan" target="_blank">思源实验学校网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/siyuan" target="_blank">台前思源实验学校网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/lizhi" target="_blank">台前励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/xiaoboshi" target="_blank">台前清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/cyh" target="_blank">台前曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/yiyuan" target="_blank">台前艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>
@@ -150,22 +150,22 @@
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
 				  <th><span style="background-color:#FF9900;">&nbsp;</span></th>
 				  <td>
-				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td width="72px;">2014-01-26</td>
+				    <a href="dreamstar.html">台前梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td width="72px;">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/siyuan" target="_blank">思源实验学校召开家长会</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/siyuan" target="_blank">台前思源实验学校召开家长会</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/lizhi" target="_blank">台前励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/xiaoboshi" target="_blank">台前清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/cyh" target="_blank">台前曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/yiyuan" target="_blank">台前艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>
@@ -182,22 +182,22 @@
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
 				  <th><span style="background-color:#FF9900;">&nbsp;</span></th>
 				  <td>
-				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td width="72px">2014-01-26</td>
+				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td width="80px">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/siyuan" target="_blank">思源实验学校网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/siyuan" target="_blank">台前思源实验学校网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/lizhi" target="_blank">台前励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/xiaoboshi" target="_blank">台前清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/cyh" target="_blank">台前曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/yiyuan" target="_blank">台前艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>
@@ -216,19 +216,19 @@
 				    <a href="dreamstar.html">梦想之星网站工作室</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td width="72px;">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/siyuan" target="_blank">思源实验学校网站上线</a>&nbsp;&nbsp;</td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/siyuan" target="_blank">台前思源实验学校网站上线</a>&nbsp;&nbsp;</td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/lizhi" target="_blank">励志中学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/lizhi" target="_blank">台前励志中学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/xiaoboshi" target="_blank">清华小博士幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/xiaoboshi" target="_blank">台前清华小博士幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/cyh" target="_blank">曹杨韩小学网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/cyh" target="_blank">台前曹杨韩小学网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/yiyuan" target="_blank">艺园中心幼儿园</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td>[通知] <a href="/yiyuan" target="_blank">台前艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
 			</div>
@@ -253,7 +253,7 @@
 			<a href="<?php echo '/'.$values[$i%$numbers]["url"]?>" target="_blank">
 		    <div id="service_2">
 		      <div id="name">
-			    <img style="width:100%;" src="tq/images/<?php echo $i%$numbers+1?>.jpg">
+			    <img style="width:100%;" src="tq/images/<?php echo $i%$numbers+1?>.jpg" alt="台前网">
 			    <span><?php echo $values[$i]["name"]?></span>
 			  </div>
 			  <div id="content_2">
