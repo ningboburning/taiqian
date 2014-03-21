@@ -112,7 +112,8 @@
 				  <span style="font-size:14px;margin-left:10px;font-weight:bold;">商家动态</span>
 				</div>
 			  </div>
-			  <table style="width:100%;">
+			  <div id="up_zzjs">
+			  <table id="marqueebox" style="width:100%;">
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
 				  <th><span style="background-color:#FF9900;">&nbsp;</span></th>
 				  <td>
@@ -134,6 +135,7 @@
 				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/yiyuan" target="_blank">台前艺园中心幼儿园</a></td><td>2014-01-26</td>
 				</tr>
 			  </table>
+			  </div>
 			</div>
 		  </div>
 		</div>
@@ -273,6 +275,9 @@
 	  <div class="clearfloat"></div>
 	</div>
 	<?php include "src/_footer.php"?>
+	<script language="javascript">
+		startmarquee(26,20,1500);
+	</script>
 	</div>
   </body>
 </html>
