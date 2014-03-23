@@ -106,7 +106,7 @@
 				</div>
 			  </div>
 			</div>
-		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;min-height:210px;">
+		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;height:230px;overflow:hidden;">
 			  <div style="width:100%;height:28px;background-color:#F2F2F2;">
 				<div style="width:100%;border-top:2px solid #0099FF;">
 				  <span style="font-size:14px;margin-left:10px;font-weight:bold;">商家动态</span>
