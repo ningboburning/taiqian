@@ -21,17 +21,21 @@
 		</ul>
 	  </div>
 	</div>
+	<?php 
+		$data = array("1"=>array("title"=>"台前网","content"=>"台前网"));
+		$item = $data[$_GET['id']];
+	?>
 	<div id="content">
 	  <div id="main">
 	    <div id="news">
 		  <div id="news_content">
 		    <br />
 		    <div id="category_title">
-		      <span><?php ?></span>
+		      <span><?php echo $item->title?></span>
 		    </div>
 		    <div style="margin-left:40px;">
 			<span style="font-weight:bold;color:#00A8FF;"></span>
-			<span><?php ?></span>
+			<span><?php echo $item->content?></span>
 			</div>
 		  </div>
 		</div>
