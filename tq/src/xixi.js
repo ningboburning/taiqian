@@ -343,32 +343,25 @@ var Lantern={
         onLength=275//;document.getElementById("LanternN0").offsetWidth;
         offLength=27.75;//(Lantern.width-onLength)/(Lantern.info.length-1)
         var numtemp=0;
-        for(var j=0;j<Lantern.info.length;j++)
-        {
-              if(j!=0)//未选
-              {
+        for(var j=0;j<Lantern.info.length;j++){
+              if(j!=0)//未选{
                      Lantern.navyCtr[j][1]=offLength;
                      document.getElementById("__lanternNc"+j).style.display ="none";
-                    if(j==Lantern.info.length-1)
-                    {
+                    if(j==Lantern.info.length-1){
                         document.getElementById("LanternN"+j).className ="div_off3";
                     }
-                    else
-                    {
+                    else{
                         document.getElementById("LanternN"+j).className ="div_off2";
                     }
                      document.getElementById("LanternN"+j).style.width=offLength+"px";
-                     if(j==Lantern.info.length-1) 
-                     {
+                     if(j==Lantern.info.length-1){
                         document.getElementById("LanternN"+j).style.width=(Lantern.width-onLength-numtemp-7)+"px";  
                      }
-                     else
-                     {
+                     else{
                         numtemp+=offLength;
                      }
               }
-              else//已选
-              {
+              else//已选{
                  Lantern.navyCtr[j][1]=onLength;
               }
         }
@@ -387,16 +380,13 @@ var Lantern={
              
         document.getElementById("__lanternNc"+i).style.display ="";
         document.getElementById("lanternnum"+i).style.display="none";
-        if(i==0)
-        {
+        if(i==0){
             document.getElementById("LanternN"+i).className ="div_on1";
         }
-        else if(i==Lantern.info.length-1)
-        {
+        else if(i==Lantern.info.length-1){
             document.getElementById("LanternN"+i).className ="div_on3";
         }
-        else
-        {
+        else{
             document.getElementById("LanternN"+i).className ="div_on2";
         }
         document.getElementById("LanternN"+i).style.width=null;
@@ -404,44 +394,36 @@ var Lantern={
         onLength=275;//document.getElementById("LanternN"+i).offsetWidth
         offLength=27.75;//(Lantern.width-onLength)/(Lantern.info.length-1)
         var numtemp=0;
-        for(var j=0;j<Lantern.info.length;j++)
-        {
+        for(var j=0;j<Lantern.info.length;j++){
               Lantern.navyCtr[j][0]=Lantern.navyCtr[j][1];
-              if(i!=j)//未选
-              {
+              if(i!=j)//未选{
                      Lantern.navyCtr[j][1]=offLength;
                      document.getElementById("__lanternNc"+j).style.display ="none";
                      document.getElementById("lanternnum"+j).style.display="";
-                       if(j==Lantern.info.length-1)
-                        {
+                       if(j==Lantern.info.length-1){
                             document.getElementById("LanternN"+j).className ="div_off3";
                         }
-                        else
-                        {
+                        else{
                             document.getElementById("LanternN"+j).className ="div_off2";
                         }
-                     if(j==Lantern.info.length-1) 
-                     {
+                     if(j==Lantern.info.length-1) {
                         document.getElementById("LanternN"+j).style.width=(Lantern.width-onLength-numtemp-7)+"px";
                      }
-                     else
-                     {
+                     else{
                         numtemp+=offLength
                      }
                      document.getElementById("LanternN"+j).style.width=Lantern.navyCtr[j][0]+"px";
-              Lantern.navyCtr[j][2]=(Lantern.navyCtr[j][1]-Lantern.navyCtr[j][0])/Lantern.navyTime ;
+					Lantern.navyCtr[j][2]=(Lantern.navyCtr[j][1]-Lantern.navyCtr[j][0])/Lantern.navyTime ;
               }
               else//已选
               {
                  Lantern.navyCtr[j][1]=onLength;
                  document.getElementById("LanternN"+j).style.width=(Lantern.navyCtr[j][0])+"px";
-              Lantern.navyCtr[j][2]=(Lantern.navyCtr[j][1]-Lantern.navyCtr[j][0])/Lantern.navyTime ;
-             
+              Lantern.navyCtr[j][2]=(Lantern.navyCtr[j][1]-Lantern.navyCtr[j][0])/Lantern.navyTime;
               }
         }
         document.getElementById("LanternImg"+i).style.display ="";
-        if(Lantern.onChange)
-        {
+        if(Lantern.onChange){
                 document.getElementById("LanternN"+i).onclick=function(){window.open(Lantern.info[this.name][2]);};
                 document.getElementById("LanternN"+Lantern.showNum).onclick=function(){if(!Lantern.onChange){Lantern.onChange=true;Lantern.setNavy(this.name);}};
                 document.getElementById("LanternImg"+i).style.zIndex=0;
@@ -449,7 +431,6 @@ var Lantern={
                 Lantern.oInterval=setInterval('Lantern.changeLantern('+i+')',10);
         }
     },
-    
     imgMoveOver:false,
     navyMoveOver:false,
      changeLantern:function(i){
@@ -458,62 +439,47 @@ var Lantern={
              //move
              if(!Lantern.navyMoveOver)
                 Lantern.moveNavy(i);
-             if(!Lantern.imgMoveOver)
-             {
+             if(!Lantern.imgMoveOver){
                 Lantern.moveImg(i);
              }
-             else
-             {
+             else{
                 Lantern.flashImg(i);
              }
     },
     
      moveNavy:function(select){
             var breaktime=0;
-            for(var i=0;i<Lantern.info.length;i++)
-            {
-                  if((Lantern.navyCtr[i][2]>0&&document.getElementById("LanternN"+i).offsetWidth<Lantern.navyCtr[i][1])||(Lantern.navyCtr[i][2]<0&&document.getElementById("LanternN"+i).offsetWidth>Lantern.navyCtr[i][1]))
-                  {
-                       if(i==select)
-                       {
+            for(var i=0;i<Lantern.info.length;i++){
+                  if((Lantern.navyCtr[i][2]>0&&document.getElementById("LanternN"+i).offsetWidth<Lantern.navyCtr[i][1])||(Lantern.navyCtr[i][2]<0&&document.getElementById("LanternN"+i).offsetWidth>Lantern.navyCtr[i][1])){
+                       if(i==select){
                             document.getElementById("LanternN"+i).style.width=(document.getElementById("LanternN"+i).offsetWidth+Lantern.navyCtr[i][2]-7)+"px";  
                        }
-                       else
-                       {
+                       else{
                             document.getElementById("LanternN"+i).style.width=(document.getElementById("LanternN"+i).offsetWidth+Lantern.navyCtr[i][2])+"px";  
                        }
-                          
                   }
-                  else
-                  {
-                      if(i==select)
-                      {
-                           for(var j=0;j<Lantern.info.length;j++)
-                           {
+                  else{
+                      if(i==select){
+                           for(var j=0;j<Lantern.info.length;j++){
                                 document.getElementById("LanternN"+j).style.width=Lantern.navyCtr[j][1]+"px"; 
                            }
-
                            Lantern.navyMoveOver=true;
                            break;
                   }
               }
             }
     },
-    
-     moveImg:function(i){
-            if(document.getElementById("LanternImg"+i).offsetLeft>0)
-            {
+    moveImg:function(i){
+            if(document.getElementById("LanternImg"+i).offsetLeft>0){
                document.getElementById("LanternImg"+i).style.left=(document.getElementById("LanternImg"+i).offsetLeft-Lantern.picMoveSpeed)+"px";
             }
-            else
-            {
+            else{
                 document.getElementById("LanternImg"+i).style.left="0px";
                 document.getElementById("LanternImg"+Lantern.showNum).style.left=Lantern.width+"px";
                 Lantern.imgMoveOver=true;
             }
     },
-    
-      flashImg:function(i){
+    flashImg:function(i){
              document.getElementById("LanternImg"+i).style.opacity="100"; 
                     Lantern.showNum=i;
                     Lantern.imgMoveOver=false;
@@ -524,7 +490,6 @@ var Lantern={
                     Lantern.otimeOut=setTimeout("Lantern.otimeOut=Lantern.cycLantern()",Lantern.timeOut_time);
                     Lantern.onChange=false;
     },
-      
     cycLantern:function(){
         if(!Lantern.onChange)
         {
@@ -538,7 +503,6 @@ var Lantern={
     },
     moveprevious:function(){
         if(!Lantern.onChange){
-            
             if(Lantern.cycNum>0)
                 Lantern.cycNum-=1;
             else
@@ -550,7 +514,6 @@ var Lantern={
     },
     movenext:function(){
         if(!Lantern.onChange){
-            
             if(Lantern.cycNum>=Lantern.info.length-1)
                 return ;
             else
@@ -560,8 +523,6 @@ var Lantern={
                 Lantern.setNavy(Lantern.cycNum);
         }
     }
-    
-    
 }
 
 var productDiv=new Array();
@@ -571,8 +532,7 @@ var playnum=1;
 
 function showproductdiv(id){
 if(id==0){id=playnum;}
-    for(i=1;i<=4;i++){  
-    
+    for(i=1;i<=4;i++){
             if(i==id){
             $("showproduct"+id).style.display="inline";                  
             $("imgproduct"+id).style.display=""; 
@@ -583,9 +543,6 @@ if(id==0){id=playnum;}
             $("imgproduct"+i).style.display="";
             $("productlist"+i).style.display="none";           
             }
-
-            
-       
     }
 
     if(playnum==4){playnum=1}else{playnum++}
@@ -594,12 +551,10 @@ if(id==0){id=playnum;}
 var myplay;
 function ProductDivPlay(id){
     if(id==""){id=0}else{playnum=id}
-    
     myplay=setInterval("showproductdiv(0)",8000);
 }
 
 function ProductDivStop(){
-
     clearInterval(myplay);
 }
 
