@@ -120,7 +120,7 @@
 				    <a href="dreamstar.html">（上海）梦想之星网站工作室</a></td><td width="72px;">2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
-				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/siyuan" target="_blank">台前思源实验学校网站上线</a></td><td>2014-01-26</td>
+				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="http://siyuan.taiqianwang.com" target="_blank">台前思源实验学校网站上线</a></td><td>2014-01-26</td>
 				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
 				  <th><span style="background-color:#FF9900;">&nbsp;</span></th><td><a href="/lizhi" target="_blank">台前励志中学网站上线</a></td><td>2014-01-26</td>
@@ -142,13 +142,12 @@
 		<div>
 		  <div id="notice" style="float:left;width:300px;">
 		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;min-height:210px;border-right:1px solid #CCCCCC;">
+			  <div style="width:100%;height:28px;background-color:#F2F2F2;">
+				<div style="width:100%;border-top:2px solid #0099FF;">
+				  <span style="font-size:14px;margin-left:10px;font-weight:bold;">台前新闻</span>
+				</div>
+			  </div>
 			  <table>
-			    <tr style="width:100%;height:28px;">
-				  <th style="width:1px;"></th>
-				  <td style="width:300px;border-top:2px solid #0099FF;">
-				    <span style="font-size:14px;margin-left:10px;font-weight:bold;">台前新闻</span>
-				  </td>
-				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
 				  <th><span style="background-color:#FF9900;">&nbsp;</span></th>
 				  <td>
@@ -174,13 +173,12 @@
 		  </div>
 		  <div id="notice" style="float:left;width:351px;">
 		    <div style="padding:5px;font:12px/1.5 tahoma,arial,宋体;min-height:210px;border-right:1px solid #CCCCCC;">
+			  <div style="width:100%;height:28px;background-color:#F2F2F2;">
+				<div style="width:100%;border-top:2px solid #0099FF;">
+				  <span style="font-size:14px;margin-left:10px;font-weight:bold;">新闻动态</span>
+				</div>
+			  </div>
 			  <table>
-			    <tr style="width:100%;height:28px;">
-				  <th style="width:1px;"></th>
-				  <td style="width:100%;border-top:2px solid #0099FF;">
-				    <span style="font-size:14px;margin-left:10px;font-weight:bold;">新闻动态</span>
-				  </td>
-				</tr>
 				<tr style="font-size:13px;padding:1px;color:#3E3E3E;line-height:22px;">
 				  <th><span style="background-color:#FF9900;">&nbsp;</span></th>
 				  <td>
