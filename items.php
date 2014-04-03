@@ -29,13 +29,13 @@
 		  </div>
 		    <?php 
 				$values = array(
-					array("name"=>"梦想之星网站工作室","url"=>"taiqian/contect.php"),
-					array("name"=>"台前思源实验学校","url"=>"siyuan"),
-					array("name"=>"台前励志中学","url"=>"lizhi"),
-					array("name"=>"台前清华小博士幼儿园","url"=>"xiaoboshi"),
+					array("name"=>"梦想之星网站工作室","url"=>"contect.php"),
+					array("name"=>"台前思源实验学校","url"=>"http://siyuan.taiqianwang.com"),
+					array("name"=>"台前励志中学","url"=>"http://lizhi.taiqianwang.com"),
+					array("name"=>"台前清华小博士幼儿园","url"=>"http://xiaoboshi.taiqianwang.com"),
 					array("name"=>"台前曹杨韩小学","url"=>"cyh"),
 					array("name"=>"台前艺园幼儿园","url"=>"yiyuan"),
-					array("name"=>"台前新区医院","url"=>"#")
+					array("name"=>"台前新区医院","url"=>"page.php?id=20")
 				);
 				$numbers = count($values);
 				for($i=0;$i<$numbers;$i++){

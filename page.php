@@ -22,7 +22,9 @@
 	  </div>
 	</div>
 	<?php 
-		$data = array("1"=>array("title"=>"台前网","content"=>"台前网"));
+		$data = array("1"=>array("title"=>"台前网","content"=>"台前网致力于为广大商家提供广告宣传平台、新闻发布媒体，方便商家、店铺进行宣传，也方便大家更方便的找到需要信息。"),
+			"20"=>array("title"=>"台前新区医院","content"=>"台前新区医院")
+		);
 		$item = $data[$_GET['id']];
 	?>
 	<div id="content">
@@ -31,11 +33,11 @@
 		  <div id="news_content">
 		    <br />
 		    <div id="category_title">
-		      <span><?php echo $item->title?></span>
+		      <span><?php echo $item["title"]?></span>
 		    </div>
 		    <div style="margin-left:40px;">
 			<span style="font-weight:bold;color:#00A8FF;"></span>
-			<span><?php echo $item->content?></span>
+			<span><?php echo $item["content"]?></span>
 			</div>
 		  </div>
 		</div>

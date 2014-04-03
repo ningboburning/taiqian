@@ -384,10 +384,10 @@ Util.addLogCount();
         }
         function PageClick (pageclickednumber) {
             pageclickednumber = parseInt(pageclickednumber);
-            $("#pager").pager({ pagenumber: pageclickednumber, pagecount: pagecount, showcount:9, buttonClickCallback: PageClick });
+            $("#pager").pager({ pagenumber: pageclickednumber, pagecount: pagecount, showcount:50, buttonClickCallback: PageClick });
             searchAction(keyword, pageclickednumber -1);
         }
-        $("#pager").pager({ pagenumber: page, pagecount: pagecount, showcount:9, buttonClickCallback: PageClick });
+        $("#pager").pager({ pagenumber: page, pagecount: pagecount, showcount:50, buttonClickCallback: PageClick });
     }
 
     searchAction(keyword);
